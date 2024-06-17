@@ -106,43 +106,55 @@
         <section class="seus-beneficios center">
             <h2>Seus Benefícios</h2>
             <div class="beneficios-container">
-                <div class="beneficio-card">
+                <div class="beneficio-card w33">
                     <div class="beneficio-circle">
                         <div class="image-icon"></div>
                     </div>
                     <p>Mais tempo pra focar no seu projeto</p>
                 </div>
-                <div class="beneficio-card">
+                <div class="beneficio-card w33">
                     <div class="beneficio-circle">
                         <div class="image-icon"></div>
                     </div>
                     <p>Atraia clientes com algo de qualidade</p>
                 </div>
-                <div class="beneficio-card">
+                <div class="beneficio-card w33">
                     <div class="beneficio-circle">
                         <div class="image-icon"></div>
                     </div>
                     <p>Mostre suas idéias de forma organizada</p>
                 </div>
-                <div class="beneficio-card">
+                <div class="beneficio-card w33">
                     <div class="beneficio-circle">
                         <div class="image-icon"></div>
                     </div>
                     <p>Aumente seu público com o alcance da internet</p>
                 </div>
-                <div class="beneficio-card">
+                <div class="beneficio-card w33">
                     <div class="beneficio-circle">
                         <div class="image-icon"></div>
                     </div>
                     <p>Seu lindo web site trabalhando 24hrs por dia</p>
                 </div>
-                <div class="beneficio-card">
+                <div class="beneficio-card w33">
                     <div class="beneficio-circle">
                         <div class="image-icon"></div>
                     </div>
                     <p>Você no controle de forma simples</p>
                 </div>
             </div>
-        </section>
+        </section><!--Seus Beneficios-->
+
+        <section class="Promessas-cliente center">
+            <h2>Promessas para futuros clientes</h2>
+            <div class="paginas-qualidade w50">
+                <h3>Páginas de qualidade</h3>
+                <p>Seu site terá a qualidade que seu  projeto ou empresa precisam, tanto em questões relacionadas a aparência como desempenho.</p>
+            </div>
+            <div class="saude-comunicacao w50">
+                <h3>Páginas de qualidade</h3>
+                <p>Seu site terá a qualidade que seu  projeto ou empresa precisam, tanto em questões relacionadas a aparência como desempenho.</p>
+            </div>
+        </section><!--Promessas-cliente-->
     </body>
 </html>
