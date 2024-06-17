@@ -5,6 +5,17 @@
     padding:60px;
 }
 
+.bem-vindo .mapa-habilidades
+{
+    margin-top:100px;
+    margin-bottom: 14px;
+}
+
+.bem-vindo h1
+{
+    margin-bottom: 14px;
+}
+
 .apresentacao .bem-vindo .mapa-habilidades p
 {
     color:#afc4d3;
@@ -28,6 +39,7 @@
 {
     color:white;
     max-width: 350px;
+    margin-bottom: 80px;
 }
 
 .apresentacao .buttom-contato
@@ -37,6 +49,7 @@
     text-align: center;
     background-color: white;
     padding:8px;
+    margin-bottom:18px;
     border-radius:24px;
 }
 
@@ -44,6 +57,11 @@
 {
     color:#13072e;
     text-decoration: none;
+}
+
+.apresentacao .image-apresentacao img
+{
+    width:500px;
 }
 
 @media (max-width:750px)

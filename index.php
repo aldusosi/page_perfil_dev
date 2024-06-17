@@ -50,16 +50,14 @@
                     <div class="txt-bem-vindo">
                         <p >Bem vindo ao meu espaço tecnológico. Esta página é dedicada ao meu trabalho e experiências profissionais</p>  
                     </div>
-                    
-                    <div class="buttom-contato">
-                        <div>
-                            <a href="">Contato</a>
-                        </div>
-                        
+                </div>
+                <div class="buttom-contato">
+                    <div>
+                        <a href="">Contato</a>
                     </div>
-                    
                 </div>
             </div>
+            
             <div class="image-apresentacao w50 left">
                 <img src="./images/image-apresentacao.png" alt="imagen-apresentacao">
             </div>

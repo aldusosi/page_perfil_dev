@@ -1,5 +1,6 @@
 header
 {
+    margin-bottom:40px;
 }
 header .logotipo a{
     display:block;
@@ -12,7 +13,7 @@ header .logotipo a{
 
 header .nav-desktop
 {
-    margin-top:20px;
+    margin-top:25px;
     text-align: right;
 }
 
