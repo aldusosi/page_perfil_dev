@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./styles/all.css">
         <link rel="stylesheet" href="./styles/header.css">
         <link rel="stylesheet" href="./styles/apresentacao.css">
+        <link rel="stylesheet" href="./styles/sobre.css">
     </head>
     <body>
 
@@ -66,12 +67,15 @@
 
         <section class="sobre center">
             <h2>Sobre Mim</h2>
-            <div class="sobre-text w50">
+            <div class="sobre-text w50 left">
                 <p>Sou Alexsandro Duarte. Me formei em Jogos Digitais e sempre fui apaixonado por tecnologia, busco estar sempre atualizado tanto as questões relacionadas ao desenvovimento web quanto aos jogos digitais. Acredito que essa busca acaba facilitando no entendimento de novos conteúdos pois me leva a locais amplos de aprendizado. Qualidade no que faço é uma busca constante pois é ela quem indica o meu grau de conhecimento.</p>
             </div>
-            <div class="sobre-foto w50">
+            <div class="sobre-foto w50 right">
                 <img src="./images/Alex.jpg" alt="">
+                <h4>Alexsandro Duarte</h4>
+                <p>Desenvolvedor</p>
             </div>
+            <div class="clear"></div>
         </section><!--Sobre-->
 
         <section class="tools">
