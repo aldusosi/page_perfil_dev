@@ -16,7 +16,7 @@
     width:100%;
 	background-image: linear-gradient(135deg, #13072e, #3f2182 );
     border-radius:20px;
-    padding:40px;
+    padding:25px;
 }
 
 .tools .tools-card h3
@@ -25,16 +25,18 @@
     text-align: center;
 }
 
-.tools .front-end-tools .tools-container, .tools .back-end-tools .tools-container
+ .tools .tools-container
 {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap:wrap;
 }
 
-.tools .tools-card .back-end-tools, .tools .tools-card .front-end-tools
+.tools .tools-card .back-end-tools, 
+.tools .tools-card .front-end-tools,
+.tools .tools-card .geral-tools
 {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .tools .tools-container .tool-card 
@@ -43,11 +45,11 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     background-color: #1d1137;
     border-radius:20px;
-    margin:8px;
+    margin:14px;
 }
 
 .tools .tools-container .tool-card p
@@ -59,6 +61,6 @@
 .tools .tools-container .tool-card .tool-image i
 {
     color:#6642b4;
-    font-size:42px;
+    font-size:24px;
     margin-bottom:4px;
 }

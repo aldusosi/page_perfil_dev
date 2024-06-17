@@ -126,6 +126,20 @@
                         </div>
                     </div>
                 </div><!--Front-end Tools-->
+
+                <div class="geral-tools">
+                    <div><h3>Outros</h3></div>
+                    <div class="tools-container">
+                        <div class="tool-card">
+                            <div class="tool-image"><i class="fa fa-git" aria-hidden="true"></i></div>
+                            <p>Git</p>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-image"><i class="fa fa-github" aria-hidden="true"></i></div>
+                            <p>Github</p>
+                        </div>
+                    </div>
+                </div><!--Front-end Tools-->
             </div>
         </section><!--Tools-->
 
