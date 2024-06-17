@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/all.css">
         <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/apresentacao.css">
     </head>
     <body>
 
@@ -39,17 +40,30 @@
         </header><!--Header-->
 
         <section class="apresentacao center">
-            <div class="bem-vindo w50">
+            <div class="bem-vindo w50 left">
                 <div>
-                    <p>Front-end | Back-end</p>
+                    <div class="mapa-habilidades">
+                        <p >Front-end | Back-end</p>
+                    </div>
+                    
                     <h1>Ola, sou o Alex!</h1>
-                    <p>Bem vindo ao meu espaço tecnológico. Esta página é dedicada ao meu trabalho e experiências profissionais</p>
-                    <a class="buttom-contato" href="">Contato</a>
+                    <div class="txt-bem-vindo">
+                        <p >Bem vindo ao meu espaço tecnológico. Esta página é dedicada ao meu trabalho e experiências profissionais</p>  
+                    </div>
+                    
+                    <div class="buttom-contato">
+                        <div>
+                            <a href="">Contato</a>
+                        </div>
+                        
+                    </div>
+                    
                 </div>
             </div>
-            <div class="image-apresentacao w50">
+            <div class="image-apresentacao w50 left">
                 <img src="./images/image-apresentacao.png" alt="imagen-apresentacao">
             </div>
+            <div class="clear"></div>
         </section><!--Apresentacao-->
 
         <section class="sobre center">

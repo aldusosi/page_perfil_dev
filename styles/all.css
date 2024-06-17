@@ -6,7 +6,8 @@
 
 body
 {
-    background-color: #1d1137;
+    padding:2%;
+    background-color: #13072e;
     font-family: "Poppins", sans-serif;
 }
 
@@ -36,4 +37,12 @@ body
 .w50
 {
     width:50%;
+}
+
+@media (max-width:750px)
+{
+    .w50
+    {
+        width:100%;
+    }
 }

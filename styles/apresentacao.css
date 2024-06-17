@@ -1,0 +1,60 @@
+.apresentacao
+{
+    background-image: linear-gradient(135deg, #13072e, #3f2182 );
+    border-radius:18px;
+    padding:60px;
+}
+
+.apresentacao .bem-vindo .mapa-habilidades p
+{
+    color:#afc4d3;
+    width: auto;
+    max-width: 250px;
+    text-align:center;
+    padding:6px;
+    background-color: #1d1137;
+    border-radius:20px;
+}
+
+.apresentacao .bem-vindo h1
+{
+    color:white;
+    width: auto;
+    max-width: 350px;
+
+}
+
+.apresentacao .bem-vindo .txt-bem-vindo p
+{
+    color:white;
+    max-width: 350px;
+}
+
+.apresentacao .buttom-contato
+{
+    width:auto;
+    max-width: 250px;
+    text-align: center;
+    background-color: white;
+    padding:8px;
+    border-radius:24px;
+}
+
+.apresentacao .buttom-contato a
+{
+    color:#13072e;
+    text-decoration: none;
+}
+
+@media (max-width:750px)
+{
+    .apresentacao .bem-vindo
+    {
+        width:100%;
+    }
+    .apresentacao .image-apresentacao img
+    {
+        width:100%;
+        float:none;
+    }
+}
