@@ -6,10 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Precisa de uma página web? confira o trabalho do desenvolvedor Alexsandro Duarte, dev front-and, back-end, com páginas profissionais que atendem as suas demandas">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/font-awesome.min.css">
         <link rel="stylesheet" href="./styles/all.css">
         <link rel="stylesheet" href="./styles/header.css">
         <link rel="stylesheet" href="./styles/apresentacao.css">
         <link rel="stylesheet" href="./styles/sobre.css">
+        <link rel="stylesheet" href="./styles/tools.css">
     </head>
     <body>
 
@@ -68,7 +70,7 @@
         <section class="sobre center">
             <h2>Sobre Mim</h2>
             <div class="sobre-text w50 left">
-                <p>Sou Alexsandro Duarte. Me formei em Jogos Digitais e sempre fui apaixonado por tecnologia, busco estar sempre atualizado tanto as questões relacionadas ao desenvovimento web quanto aos jogos digitais. Acredito que essa busca acaba facilitando no entendimento de novos conteúdos pois me leva a locais amplos de aprendizado. Qualidade no que faço é uma busca constante pois é ela quem indica o meu grau de conhecimento.</p>
+                <p>Sou Alexsandro Duarte. Formado em Jogos Digitais, sempre fui apaixonado por tecnologia, busco estar sempre atualizado tanto as questões relacionadas ao desenvovimento web quanto aos. Acredito que essa busca acaba facilitando no entendimento de novos conteúdos pois me leva a locais amplos de aprendizado. Qualidade no que faço é uma busca constante pois é ela quem indica o meu grau de conhecimento.</p>
             </div>
             <div class="sobre-foto w50 right">
                 <img src="./images/Alex.jpg" alt="">
@@ -78,30 +80,30 @@
             <div class="clear"></div>
         </section><!--Sobre-->
 
-        <section class="tools">
-            <div class="center">
-                <div><h2>Tools</h2></div>
+        <section class="tools center">
+            <div><h2>Tools</h2></div>
+            <div class="tools-card center">   
                 <div class="front-end-tools">
                     <div><h3>Front-end</h3></div>
                     <div class="tools-container">
                         <div class="tool-card">
-                            <div class="tool-image"></div>
+                            <div class="tool-image"><i class="fa fa-html5" aria-hidden="true"></i></div>
                             <p>Html</p>
                         </div>
                         <div class="tool-card">
-                            <div class="tool-image"></div>
+                            <div class="tool-image"><i class="fa fa-css3" aria-hidden="true"></i></div>
                             <p>CSS</p>
                         </div>
                         <div class="tool-card">
-                            <div class="tool-image"></div>
+                            <div class="tool-image"><i class="fa fa-file-o" aria-hidden="true"></i></div>
                             <p>JS</p>
                         </div>
                         <div class="tool-card">
-                            <div class="tool-image"></div>
+                            <div class="tool-image"><i class="fa fa-address-card-o" aria-hidden="true"></i></div>
                             <p>Bootstrap</p>
                         </div>
                         <div class="tool-card">
-                            <div class="tool-image"></div>
+                            <div class="tool-image"><i class="fa fa-code" aria-hidden="true"></i></div>
                             <p>React</p>
                         </div>
                     </div>
@@ -111,15 +113,15 @@
                     <div><h3>Back-end</h3></div>
                     <div class="tools-container">
                         <div class="tool-card">
-                            <div class="tool-image"></div>
+                            <div class="tool-image"><i class="fa fa-code" aria-hidden="true"></i></div>
                             <p>PHP</p>
                         </div>
                         <div class="tool-card">
-                            <div class="tool-image"></div>
+                            <div class="tool-image"><i class="fa fa-database" aria-hidden="true"></i></div>
                             <p>MySql</p>
                         </div>
                         <div class="tool-card">
-                            <div class="tool-image"></div>
+                            <div class="tool-image"><i class="fa fa-terminal" aria-hidden="true"></i></div>
                             <p>Node</p>
                         </div>
                     </div>

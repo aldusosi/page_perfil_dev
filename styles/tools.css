@@ -1,0 +1,64 @@
+.tools
+{
+
+    padding: 0;
+    margin-top:100px;
+}
+.tools h2
+{
+    text-align: center;
+    color:#6642b4;
+    font-size:42px;
+    margin-bottom:20px;
+}
+.tools-card
+{
+    width:100%;
+	background-image: linear-gradient(135deg, #13072e, #3f2182 );
+    border-radius:20px;
+    padding:40px;
+}
+
+.tools .tools-card h3
+{
+    color:white;
+    text-align: center;
+}
+
+.tools .front-end-tools .tools-container, .tools .back-end-tools .tools-container
+{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.tools .tools-card .back-end-tools, .tools .tools-card .front-end-tools
+{
+    margin-top: 50px;
+}
+
+.tools .tools-container .tool-card 
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:150px;
+    height:150px;
+    background-color: #1d1137;
+    border-radius:20px;
+    margin:8px;
+}
+
+.tools .tools-container .tool-card p
+{
+    font-size:14px;
+    color:white;
+}
+
+.tools .tools-container .tool-card .tool-image i
+{
+    color:#6642b4;
+    font-size:42px;
+    margin-bottom:4px;
+}
