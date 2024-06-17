@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+{
+    background-color: #1d1137;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Boot CSS*/
+.center{
+    max-width:1200px;
+    padding:0 2%;
+    margin:0 auto;
+    
+}
+
+.left
+{
+    float:left;
+}
+
+.right
+{
+    float:right;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.w50
+{
+    width:50%;
+}

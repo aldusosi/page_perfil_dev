@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Alex Dev</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Precisa de uma página web? confira o trabalho do desenvolvedor Alexsandro Duarte, dev front-and, back-end, com páginas profissionais que atendem as suas demandas">
-        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/all.css">
+        <link rel="stylesheet" href="./styles/header.css">
     </head>
     <body>
 
         <header>
             <div class="center">
-                <div class="logotipo"><h1><a href="">Alexsandro D. Silva</a></h1></div>
-                <nav class="nav-desktop">
+                <div class="logotipo w50 left">
+                    <span><a href="">Alexsandro D.</a></span>
+                    <span><a href="">Silva</a></span>
+                </div>
+                
+                <nav class="nav-desktop right w50">
                     <ul>
                         <li><a href="">Projetos</a></li>
                         <li><a href="">Sobre</a></li>
@@ -27,6 +34,7 @@
                         <li><a href="">Serviços</a></li>
                     </ul>
                 </nav>
+                <div class="clear"></div>
             </div>
         </header><!--Header-->
 
@@ -55,8 +63,8 @@
         </section><!--Sobre-->
 
         <section class="tools">
-            <div><h2>Tools</h2></div>
             <div class="center">
+                <div><h2>Tools</h2></div>
                 <div class="front-end-tools">
                     <div><h3>Front-end</h3></div>
                     <div class="tools-container">
