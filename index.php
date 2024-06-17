@@ -156,5 +156,32 @@
                 <p>Seu site terá a qualidade que seu  projeto ou empresa precisam, tanto em questões relacionadas a aparência como desempenho.</p>
             </div>
         </section><!--Promessas-cliente-->
+
+        <footer>
+            <div class="center">
+                <div class="logotipo"><h1><a href="">Alexsandro D. Silva</a></h1></div>
+                <div class="redes-sociais">
+                    <p>Redes-sociais</p>
+                    <div class="image-redes">image</div>
+                    <div class="image-redes">image</div>
+                    <div class="image-redes">image</div>
+                </div>
+                <div class="nav-footer-container">
+                    <nav class="nav-footer">
+                        <ul>
+                            <li><a href="">Projetos</a></li>
+                            <li><a href="">Sobre</a></li>
+                            <li><a href="">Contatos</a></li>
+                            <li><a href="">Serviços</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="center">
+                    <p>Todos os direitos reservados - 2024</p>
+                </div>
+            </div>
+
+
+        </footer>
     </body>
 </html>
