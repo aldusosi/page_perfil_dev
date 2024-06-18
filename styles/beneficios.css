@@ -1,0 +1,56 @@
+.seus-beneficios
+{
+	/*background-image:linear-gradient(135deg, #13072e, #3f2182);*/
+	border-radius:20px;
+	padding:40px;
+	margin-top:50px;
+}
+
+.seus-beneficios h2
+{
+	width:30%;
+	color:#6642b4;
+	font-size:42px;
+	margin-bottom:20px;
+}
+
+.seus-beneficios .beneficios-container .beneficio-card
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align:center;
+}
+
+.seus-beneficios .beneficios-container .beneficio-card .beneficio-circle
+{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:40px;
+	height:40px;
+	text-align:center;
+	background-color:#3f2182;
+	border-radius:50%;
+	margin-bottom: 14px;
+}
+
+.seus-beneficios .beneficios-container .beneficio-card .beneficio-circle i
+{
+	font-size: 18px;
+	color:white;
+}
+
+.seus-beneficios .beneficios-container .beneficio-card p
+{
+	font-size:14px;
+	color:white;
+}
+
+@media (max-width:750px)
+{
+	.seus-beneficios .beneficio-card
+	{
+		margin:20px 0;
+	}
+}

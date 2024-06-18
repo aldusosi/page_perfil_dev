@@ -30,6 +30,7 @@ header .nav-desktop ul li
 
 header .nav-desktop ul li a
 {
+    font-size:14px;
     color:white;
     text-decoration:none;
     margin-right:30px;
@@ -40,13 +41,58 @@ header .nav-mobile
     display:none;
 }
 
+header .nav-mobile .botao-menu-mobile i
+{
+    color:white;
+    font-size:34px;
+}
+
+header .nav-mobile ul
+{
+    display:none;
+}
+
 @media(max-width:700px)
 {
+    .logotipo
+    {
+        width:70%;
+    }
     header .logotipo a{
     }
 
     header .nav-desktop
     {
         display:none;
+    }
+
+    header .nav-mobile
+    {
+        display:block;
+    }
+
+    header .nav-mobile ul
+    {
+        width:100%;
+        position:absolute;
+        top:100px;
+        left:0;
+        text-align: center;
+        background-color: #3f2182;
+        list-style:none;
+    }
+
+    header .nav-mobile ul li
+    {
+        border:1px solid #13072e;
+        padding:8px;
+    }
+
+    header .nav-mobile ul li a
+    {
+        color:#fff;
+        display:inline-block;
+        width:100%;
+        text-decoration: none;
     }
 }

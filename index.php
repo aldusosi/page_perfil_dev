@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="./styles/apresentacao.css">
         <link rel="stylesheet" href="./styles/sobre.css">
         <link rel="stylesheet" href="./styles/tools.css">
+        <link rel="stylesheet" href="./styles/beneficios.css">
+        <link rel="stylesheet" href="./styles/promessas.css">
+        <link rel="stylesheet" href="./styles/footer.css">
     </head>
     <body>
 
@@ -30,13 +33,17 @@
                         <li><a href="">Serviços</a></li>
                     </ul>
                 </nav>
-                <nav class="nav-mobile">
+                <nav class="nav-mobile right">
+                    <div class="botao-menu-mobile">
+                        <i class="fa fa-bars"></i>
+                    </div>
                     <ul>
                         <li><a href="">Projetos</a></li>
                         <li><a href="">Sobre</a></li>
                         <li><a href="">Contatos</a></li>
                         <li><a href="">Serviços</a></li>
                     </ul>
+                    <div class="clear"></div>
                 </nav>
                 <div class="clear"></div>
             </div>
@@ -69,8 +76,9 @@
 
         <section class="sobre center">
             <h2>Sobre Mim</h2>
+            <hr>
             <div class="sobre-text w50 left">
-                <p>Sou Alexsandro Duarte. Formado em Jogos Digitais, sempre fui apaixonado por tecnologia, busco estar sempre atualizado tanto as questões relacionadas ao desenvovimento web quanto aos. Acredito que essa busca acaba facilitando no entendimento de novos conteúdos pois me leva a locais amplos de aprendizado. Qualidade no que faço é uma busca constante pois é ela quem indica o meu grau de conhecimento.</p>
+                <p>Sou Alexsandro Duarte. Formado em Jogos Digitais, sempre fui apaixonado por tecnologia, busco estar sempre atualizado tanto as questões relacionadas ao desenvovimento web quanto aos jogos. Acredito que essa busca acaba facilitando no entendimento de novos conteúdos pois me leva a locais amplos de aprendizado. Qualidade no que faço é uma busca constante pois é ela quem indica o meu grau de conhecimento.</p>
             </div>
             <div class="sobre-foto w50 right">
                 <img src="./images/Alex.jpg" alt="">
@@ -146,82 +154,98 @@
         <section class="seus-beneficios center">
             <h2>Seus Benefícios</h2>
             <div class="beneficios-container">
-                <div class="beneficio-card w33">
+                <div class="beneficio-card w33 left">
                     <div class="beneficio-circle">
-                        <div class="image-icon"></div>
+                        <div class="image-icon"><i class="fa fa-gift" aria-hidden="true"></i></div>
                     </div>
                     <p>Mais tempo pra focar no seu projeto</p>
                 </div>
-                <div class="beneficio-card w33">
+                <div class="beneficio-card w33 left">
                     <div class="beneficio-circle">
-                        <div class="image-icon"></div>
+                        <div class="image-icon"><i class="fa fa-gift" aria-hidden="true"></i></div>
                     </div>
                     <p>Atraia clientes com algo de qualidade</p>
                 </div>
-                <div class="beneficio-card w33">
+                <div class="beneficio-card w33 left">
                     <div class="beneficio-circle">
-                        <div class="image-icon"></div>
+                        <div class="image-icon"><i class="fa fa-gift" aria-hidden="true"></i></div>
                     </div>
                     <p>Mostre suas idéias de forma organizada</p>
                 </div>
-                <div class="beneficio-card w33">
+                <div class="beneficio-card w33 left">
                     <div class="beneficio-circle">
-                        <div class="image-icon"></div>
+                        <div class="image-icon"><i class="fa fa-gift" aria-hidden="true"></i></div>
                     </div>
                     <p>Aumente seu público com o alcance da internet</p>
                 </div>
-                <div class="beneficio-card w33">
+                <div class="beneficio-card w33 left">
                     <div class="beneficio-circle">
-                        <div class="image-icon"></div>
+                        <div class="image-icon"><i class="fa fa-gift" aria-hidden="true"></i></div>
                     </div>
                     <p>Seu lindo web site trabalhando 24hrs por dia</p>
                 </div>
-                <div class="beneficio-card w33">
+                <div class="beneficio-card w33 left">
                     <div class="beneficio-circle">
-                        <div class="image-icon"></div>
+                        <div class="image-icon"><i class="fa fa-gift" aria-hidden="true"></i></div>
                     </div>
                     <p>Você no controle de forma simples</p>
                 </div>
+                
             </div>
+            <div class="clear"></div>
         </section><!--Seus Beneficios-->
 
-        <section class="Promessas-cliente center">
+        <section class="promessas-cliente center">
             <h2>Promessas para futuros clientes</h2>
-            <div class="paginas-qualidade w50">
+            <div class="paginas-qualidade w50 left">
                 <h3>Páginas de qualidade</h3>
-                <p>Seu site terá a qualidade que seu  projeto ou empresa precisam, tanto em questões relacionadas a aparência como desempenho.</p>
+                <p>Seu site terá a qualidade que o seu projeto ou empresa precisam, tanto em questões relacionadas a aparência como desempenho.</p>
             </div>
-            <div class="saude-comunicacao w50">
-                <h3>Páginas de qualidade</h3>
-                <p>Seu site terá a qualidade que seu  projeto ou empresa precisam, tanto em questões relacionadas a aparência como desempenho.</p>
+            <div class="saude-comunicacao w50 left">
+                <h3>Saúde na comunicação</h3>
+                <p>Uma boa comunicação é fundamental em qualquer área de nossas vidas, então estarei aqui pra fazer a sua vida mais fácil.</p>
             </div>
+            <div class="clear"></div>
         </section><!--Promessas-cliente-->
 
         <footer>
-            <div class="center">
-                <div class="logotipo"><h1><a href="">Alexsandro D. Silva</a></h1></div>
-                <div class="redes-sociais">
-                    <p>Redes-sociais</p>
-                    <div class="image-redes">image</div>
-                    <div class="image-redes">image</div>
-                    <div class="image-redes">image</div>
+            <div >
+                <div class="head-footer">
+                    <div class="logotipo"><h1><a href="">Alexsandro D. Silva</a></h1></div>
+                    <div class="redes-sociais">
+                        <p>Redes-sociais</p>
+                        <div class="icons-container">
+                           <div class="image-redes"> <a href=""><i class="fa fa-instagram"  aria-hidden="true"></i></a> 
+                           </div>
+                            <div class="image-redes"> <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
+                            <div class="image-redes"> <a href=""><i class="fa fa-github" aria-hidden="true"></i></a> </div> 
+                        </div>
+                        
+                    </div>
+                    <div class="nav-footer-container">
+                        <nav class="nav-footer">
+                            <ul>
+                                <li><a href="">Projetos</a></li>
+                                <li><a href="">Sobre</a></li>
+                                <li><a href="">Contatos</a></li>
+                                <li><a href="">Serviços</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="nav-footer-container">
-                    <nav class="nav-footer">
-                        <ul>
-                            <li><a href="">Projetos</a></li>
-                            <li><a href="">Sobre</a></li>
-                            <li><a href="">Contatos</a></li>
-                            <li><a href="">Serviços</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="center">
+                
+                <div class="footer-bottom">
                     <p>Todos os direitos reservados - 2024</p>
                 </div>
             </div>
 
 
         </footer>
+
+        <script src="./scripts/jquery.js"></script>
+        <script src="./scripts/menu-mobile.js">
+            alert('abriu');
+        </script>
+
     </body>
 </html>
